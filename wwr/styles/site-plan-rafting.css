@@ -1,4 +1,4 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap');
 
 :root {
     --primary-color: #6D6875;
@@ -6,13 +6,13 @@
     --accent1-color: #FFB4A2;
     --accent2-color: #B5838D;
 
-    --heading-font: '_______', serif;
-    --paragraph-font: '_______', serif;
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Source Sans Pro', sans-serif;
 
-    --nav-background-color: ;
-    --nav-link-color: ;
-    --nav-hover-link-color: ;
-    --nav-hover-background-color: ;
+    --nav-background-color: #FFB4A2;
+    --nav-link-color: #6D6875;
+    --nav-hover-link-color: #FFB4A2;
+    --nav-hover-background-color: #B5838D;
 }
 
 body {
