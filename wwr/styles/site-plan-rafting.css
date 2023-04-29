@@ -1,10 +1,10 @@
 @import url();
 
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --accent1-color: ;
-    --accent2-color: ;
+    --primary-color: #6D6875;
+    --secondary-color: #E5989B;
+    --accent1-color: #FFB4A2;
+    --accent2-color: #B5838D;
 
     --heading-font: '_______', serif;
     --paragraph-font: '_______', serif;
