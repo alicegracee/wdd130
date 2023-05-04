@@ -40,6 +40,7 @@ main {
 }
 
 aside {
+    width: 30em;
     text-align: center;
     position: relative;
 }
@@ -63,7 +64,6 @@ footer {
 
 /* Class Selectors */
 .box {
-    width: 30em;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
