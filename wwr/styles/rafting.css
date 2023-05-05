@@ -6,8 +6,8 @@
     --accent1-color: #FFB4A2;
     --accent2-color: #B5838D;
 
-    --heading-font: 'Merriweather', serif;
-    --paragraph-font: 'Source Sans Pro', sans-serif;
+    --heading-font: 'Merriweather', Arial, serif;
+    --paragraph-font: 'Source Sans Pro', Arial, sans-serif;
 
     --nav-background-color: #FFB4A2;
     --nav-link-color: #6D6875;
@@ -17,8 +17,8 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+    /* max-width: 960px;
+    padding: 20px; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,4 +55,55 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+* {
+    max-width : 960px;
+    padding : 0;
+    margin : auto;
+}
+
+.hero {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.hero h1, .hero article {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 27%;
+    height: auto;
+    padding: .5rem;
+}
+
+.hero h1 {
+    top: 15%;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(255, 180, 162, .7);
+}
+
+.hero article {
+    top: 40%;
+    right: 0;
+    left: 0;
+    max-width: 85%;
+    padding: 1rem;
+    margin: auto;
+    text-align: left;
+    color: white;
+    background-color: rgb(181, 131, 141, .7);
 }
