@@ -107,3 +107,7 @@ nav a:hover {
     color: white;
     background-color: rgb(181, 131, 141, .7);
 }
+
+.sociallinks {
+    text-decoration: none;
+}
