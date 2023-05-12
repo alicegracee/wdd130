@@ -15,6 +15,12 @@
     --nav-hover-background-color: #B5838D;
 }
 
+* {
+    max-width: 960px;
+    padding: 0;
+    margin: auto;
+}
+
 body {
     font-family: var(--paragraph-font);
     /* max-width: 960px;
@@ -29,7 +35,15 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
 }
+
+/* header img {
+    grid-column: 20%;
+    max-width: 180px;
+} */
 
 p {
     padding: 25px;
@@ -38,7 +52,11 @@ p {
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
+    /* text-align: right; */
+    width: 100%;
     display: flex;
+    justify-content: center;
+    /* grid-column: 2/3; */
 }
 
 nav a {
@@ -46,23 +64,33 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
+    font-weight: 700;
 }
 
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
+    font-weight: 700;
 }
 
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+    font-weight: 700;
+    text-decoration: underline;
 }
 
-* {
-    max-width : 960px;
-    padding : 0;
-    margin : auto;
+section {
+    display: block;
+    border-bottom: 3px solid steelblue;
+    padding: 1.5rem;
 }
 
+section p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/* Class selectors */
 .hero {
     position: relative;
     padding: 1rem 0;
