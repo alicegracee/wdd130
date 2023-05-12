@@ -34,11 +34,11 @@ h1, h2, h3, h4, h5, h6, figcaption {
 }
 
 header {
-    padding: 20px;
-    background-color: var(--accent1-color);
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 4fr;
+    padding: 20px;
+    background-color: var(--accent1-color);
 }
 
 /* header img {
@@ -51,12 +51,12 @@ p {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     /* text-align: right; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
     /* grid-column: 2/3; */
 }
 
@@ -131,7 +131,7 @@ footer {
     margin: auto;
     /* text-align: center; */
     color: aliceblue;
-    background-color: rgb(255, 180, 162, .7);
+    background-color: rgb(181, 131, 141, .7);
 }
 
 .hero article {
