@@ -17,6 +17,7 @@ header {
   margin: 0 auto;
   width: 650px;
 }
+
 h1 {
   margin: 1rem;
   font-size: 1.5em;
@@ -25,30 +26,24 @@ h1 {
 }
 
 form {
-  width: 650px;
+  width: 550px;
   margin: 0 auto;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 1);
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   background-color: #eee;
   display: grid;
 }
 
 fieldset {
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 0.3rem;
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
   padding: 1rem;
   justify-items: left;
-  /* grid-template-rows: repeat(4, 1fr); */
 }
-
-/* legend {
-  padding: 0.5rem;
-  color: darkblue;
-  font-size: 1.3em;
-} */
 
 label, input, button, select, textarea {
   font-family: 'Source Sans Pro', Arial, sans-serif;
@@ -68,18 +63,13 @@ input, select, textarea {
 img {
     padding: 0.5rem;
 }
-/* input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  vertical-align: bottom;
-} */
 
 button {
   margin: 1rem;
   background-color: darkblue;
   color: #fff;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   padding: 0.75rem;
   font-size: 1.2rem;
 }
@@ -101,13 +91,4 @@ footer {
 .form-item {
   display: grid;
   align-items: center;
-}
-
-.column1 {
-  grid-template-columns: 3fr 1fr;
-  margin: 0.5rem 0;
-}
-
-.column2 {
-  grid-template-columns: 1fr 2fr;
 }
