@@ -41,11 +41,6 @@ header {
     background-color: var(--accent1-color);
 }
 
-/* header img {
-    grid-column: 20%;
-    max-width: 180px;
-} */
-
 p {
     padding: 25px;
 }
@@ -97,7 +92,7 @@ section p {
 
 footer {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 30% 40% 30%;
 }
 
 /* Class selectors */
@@ -147,28 +142,28 @@ footer {
     background-color: rgb(181, 131, 141, .7);
 }
 
-.five_pictures {
+.block_pictures {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     background-color: var(--accent1-color);
 }
 
-.five_pictures h2 {
+.block_pictures h2 {
     grid-column: 1/4;
     padding-bottom: 1rem;
 }
 
-.five_pictures figure {
+.block_pictures figure {
     padding: 1rem;
 }
 
-.five_pictures img {
+.block_pictures img {
     width: 100%;
     padding: 0.5rem;
 }
 
-.five_pictures figcaption {
+.block_pictures figcaption {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 700;
