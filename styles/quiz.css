@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
 }
 
 body {
-    font-family: 'Merriweather', Arial, serif;
-    font-size: 1.2em;
-    color: black;
-    background: beige;
+  font-family: 'Merriweather', Arial, serif;
+  font-size: 1.2em;
+  color: black;
+  background: beige;
 }
 
 header {
@@ -29,7 +29,7 @@ form {
   width: 550px;
   margin: 0 auto;
   padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.3rem;
   background-color: #eee;
   display: grid;
@@ -61,7 +61,7 @@ input, select, textarea {
 }
 
 img {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 button {
