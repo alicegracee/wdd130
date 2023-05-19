@@ -23,8 +23,6 @@
 
 body {
     font-family: var(--paragraph-font);
-    /* max-width: 960px;
-    padding: 20px; */
 }
 
 h1, h2, h3, h4, h5, h6, figcaption {
@@ -51,8 +49,6 @@ nav {
     width: 100%;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    /* text-align: right; */
-    /* grid-column: 2/3; */
 }
 
 nav a {
@@ -81,13 +77,71 @@ section {
     padding: 1.2rem;
 }
 
-/* section h2 {
-    text-align: center;
-} */
-
 section p {
     font-size: 1.2rem;
     line-height: 2rem;
+}
+
+form {
+    /* width: 960px; */
+    /* width: 30em; */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.3rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    justify-items: left;
+}
+
+legend {
+    padding: 0.5rem;
+    /* color: darkblue; */
+    font-size: 1.2rem;
+}
+
+label, input, button, textarea {
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+    line-height: 1.2;
+}
+
+label {
+    text-align: left;
+    padding: 0.5rem;
+    display: block;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: darkblue;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
 }
 
 footer {
@@ -124,7 +178,6 @@ footer {
     left: 0;
     padding: 1rem;
     margin: auto;
-    /* text-align: center; */
     color: black;
     background-color: rgb(255, 180, 162, .7);
 }
@@ -140,6 +193,11 @@ footer {
     font-size: 1.2rem;
     color: black;
     background-color: rgb(181, 131, 141, .7);
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .block_pictures {
@@ -168,6 +226,16 @@ footer {
     font-size: 1.2rem;
     font-weight: 700;
     padding-bottom: 0.5rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.radio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .sociallinks a {
