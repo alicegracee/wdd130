@@ -213,17 +213,18 @@ footer {
 }
 
 .block_pictures figure {
-    padding: 1rem;
+    padding: 0.5rem;
+    margin: 0;
 }
 
 .block_pictures img {
-    width: 100%;
+    max-width: 100%;
     padding: 0.5rem;
 }
 
 .block_pictures figcaption {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     padding-bottom: 0.5rem;
 }
