@@ -23,6 +23,7 @@
 
 body {
     font-family: var(--paragraph-font);
+    width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6, figcaption {
@@ -106,7 +107,6 @@ fieldset {
 
 legend {
     padding: 0.5rem;
-    /* color: darkblue; */
     font-size: 1.2rem;
 }
 
