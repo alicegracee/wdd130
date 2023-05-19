@@ -53,8 +53,10 @@ label, input, button, select, textarea {
 }
 
 label {
-  text-align: right;
+  text-align: left;
   padding-right: 1rem;
+  /* display: block; */
+  margin-top: .5rem;
 }
 
 input, select, textarea {

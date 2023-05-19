@@ -27,6 +27,7 @@ h1 {
 
 form {
   width: 550px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -47,11 +48,14 @@ fieldset {
 
 label, input, button, select, textarea {
   font-family: 'Source Sans Pro', Arial, sans-serif;
+  line-height: 1.2
 }
 
 label {
   text-align: left;
   padding: 0.5rem;
+  /* margin-bottom: 0.4rem; */
+  display: block;
 }
 
 input, select, textarea {
