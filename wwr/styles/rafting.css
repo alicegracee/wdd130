@@ -85,8 +85,6 @@ section p {
 }
 
 form {
-    /* width: 960px; */
-    /* width: 30em; */
     max-width: 100%;
     margin: 0 auto;
     padding: 1rem;
@@ -258,6 +256,7 @@ footer {
 }
 
 .box {
+    grid-column: 4/6;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     background-color: #eee;
@@ -273,7 +272,7 @@ footer {
 
 .block-index {
     display: grid;
-    grid-column: 3/6;
+    grid-column: 1/4;
     grid-template-rows: 0.1fr 2fr 2fr;
     align-items: center;
     background-color: var(--accent1-color);    
